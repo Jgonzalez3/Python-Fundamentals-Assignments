@@ -12,12 +12,15 @@
 #Sum List
 a = [1,2,5,10,255,3]
 x = 0
-for count in range(0,len(a)-1):
+for count in range(0,len(a)):
     x += a[count]
 print x # prints the sum of the list
 
 #Average List
 y = 0
-for count in range(0,len(a)-1):
-    y += a[count]
-print y/len(a) #prints the average of the sum of list
+average = 0
+newlist = [0,5,20,8,90]
+for count in range(0,len(newlist)):
+    y += newlist[count]
+average = y / len(newlist) #prints the average of the sum of list
+print average
